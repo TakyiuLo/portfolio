@@ -179,6 +179,22 @@ h6 {
   margin: 10px !important;
 }
 
+.projects-item {
+    margin: auto auto 1rem;
+}
+
+.portfolio-item {
+  margin-bottom: 0px !important;
+}
+
+.portfolio-item-github {
+  padding-left: 20px;
+}
+
+.contacts-header {
+  
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
