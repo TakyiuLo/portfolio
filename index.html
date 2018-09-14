@@ -17,9 +17,10 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
   </head>
 
@@ -32,7 +33,7 @@
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <li class="sidebar-brand">
-          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+          <a class="js-scroll-trigger" href="#page-top">Tak's Page</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -41,7 +42,10 @@
           <a class="js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
+          <a class="js-scroll-trigger" href="#resume">Resume</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -51,15 +55,16 @@
         </li>
       </ul>
     </nav>
-
+    
     <!-- Header -->
     <header class="masthead d-flex">
-      <div class="container text-center my-auto">
-        <h1 class="mb-1">Stylish Portfolio</h1>
+
+      <div class="header-container container text-center my-auto">
+        <h1 class="mb-1">Takyiu Lo</h1>
         <h3 class="mb-5">
-          <em>A Free Bootstrap Theme by Start Bootstrap</em>
+          <em>Full Stack Developer</em>
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About Me</a>
       </div>
       <div class="overlay"></div>
     </header>
@@ -69,72 +74,52 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-            <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-              <a href="https://unsplash.com/">Unsplash</a>!</p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+            <h2 class="about-me-header">About Me</h2>
+            <p class="about-me-p lead mb-5">
+                I am a full stack web developer with a computer science background. I recently have gone through a riveting web development training program, General Assembly.  Before I was a web developer, I was a student studying computer science in UMass Lowell. In these four years, challenges were always continuously new.  I have been teaching myself how to code for four years, but I wanted more. I wanted to have the perfect coding style, which it never existed. So I found another way to do it. I went on thinking to learn the full package that many software have. And I thought, it was web development all along. Currently, I am learning more as I continue to challenge myself with full stack web development. 
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
-      <div class="container">
-        <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What We Offer</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p class="text-faded mb-0">Millions of users
-              <i class="fas fa-heart"></i>
-              Start Bootstrap!</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
-          </div>
-        </div>
+    <!-- Resume -->
+    <section class="resume callout" id="resume">
+      <div class="resume-child container text-center">
+        <h2 class="mx-auto mb-5">
+          Resume
+        </h2>
+        <a class="btn btn-primary btn-xl resume-btn" href="#Resume">Download My Resume</a>
+        <a class="btn btn-primary btn-xl resume-btn" href="#Resume">View My Resume</a>
       </div>
     </section>
-
-    <!-- Callout -->
-    <section class="callout">
-      <div class="container text-center">
-        <h2 class="mx-auto mb-5">Welcome to
-          <em>your</em>
-          next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+    
+    <!-- Skills -->
+    <section class="skills content-section" id="skills">
+      <div class="container text-center my-auto">
+        <h2 class="mx-auto mb-5">
+          Skills
+        </h2>
+        <ul class="list-group">
+          <li class="list-group-item skills-item">HTML5</li>
+          <li class="list-group-item skills-item">CSS</li>
+          <li class="list-group-item skills-item">JavaScript</li>
+          <li class="list-group-item skills-item">JQuery</li>
+          <li class="list-group-item skills-item">React JS</li>
+          <li class="list-group-item skills-item">Ruby on Rails</li>
+          <li class="list-group-item skills-item">Express</li>
+          <li class="list-group-item skills-item">JSON</li>
+          <li class="list-group-item skills-item">PSQL</li>
+          <li class="list-group-item skills-item">MongoDB</li>
+          <li class="list-group-item skills-item">Mongoose</li>
+          <li class="list-group-item skills-item">HandlebarsJS</li>
+          <li class="list-group-item skills-item">C/C++</li>
+          <li class="list-group-item skills-item">Java</li>
+          <li class="list-group-item skills-item">Phython</li>
+          <li class="list-group-item skills-item">Assembly</li>
+          <li class="list-group-item skills-item">Android Development</li>
+          <li class="list-group-item skills-item">Git/Github</li>
+        </ul>
       </div>
     </section>
 
@@ -147,47 +132,25 @@
         </div>
         <div class="row no-gutters">
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://takyiulo.github.io/ticTacToe/" target="_blank">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                  <h2>Tic Tac Toe</h2>
+                  <p class="mb-0">Want to play a game?</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+              <img class="img-fluid" src="img/ticTacToe.png" alt="">
             </a>
           </div>
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="https://takyiulo.github.io/rail-Heroku-Front-End/" target="_blank">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                  <h2>Bookmarks</h2>
+                  <p class="mb-0">Bookmark you page!</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src="img/bookmarks.png" alt="">
             </a>
           </div>
         </div>
@@ -198,37 +161,28 @@
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
         <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+        <a href="#skills" class="btn btn-xl btn-light mr-4">Click Me!</a>
+        <a href="#resume" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
     </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
-
     <!-- Footer -->
-    <footer class="footer text-center">
+    <footer class="footer text-center" id="contact">
       <div class="container">
         <ul class="list-inline mb-5">
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
+            <a class="social-link rounded-circle text-white mr-3" href="mailto:takyiulo@gmail.com" target="_blank">
+              <i class="icon-social-gmail">@</i>
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white mr-3" href="https://github.com/TakyiuLo" target="_blank">
               <i class="icon-social-github"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/takyiulo/">
+              <i class="icon-social-linkedin"></i>
             </a>
           </li>
         </ul>
