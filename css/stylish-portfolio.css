@@ -19,6 +19,11 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+#irresistible-btn {
+  background-image: url('../img/space.jpg');
+  background-size: cover;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
