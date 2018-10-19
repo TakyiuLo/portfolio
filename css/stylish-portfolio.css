@@ -8,6 +8,7 @@ body,
 html {
   width: 100%;
   height: 100%;
+  background: #eee;
 }
 
 body {
@@ -184,9 +185,27 @@ h6 {
   margin: 10px !important;
 }
 
+.recent-proj-item {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  /* background: blue; */
+  margin-bottom: 20px;
+  box-shadow: 0 2px 200px #bbb;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(30, 125, 136, 0.15);
+}
+
 .projects-item {
     margin: auto auto 1rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .portfolio-item {
   margin-bottom: 0px !important;
@@ -194,6 +213,24 @@ h6 {
 
 .portfolio-item-github {
   padding-left: 20px;
+}
+
+.description {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+  height: auto;
+}
+ 
+ .not {
+   color: red;
+   /* padding */
+ }
+
+.credit-card {
+  color: rgba(207, 124, 26, 1);
 }
 
 .contacts-header {
@@ -351,6 +388,7 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
+  text-shadow: 1px 1px #000000;
 }
 
 .portfolio-item .caption .caption-content h2 {
